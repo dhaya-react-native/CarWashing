@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "CarWashing",
-    "slug": "CarWashing",
+    "name": "Walter white Car Service",
+    "slug": "walter-white-car-service",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/ww_favicon.png",
@@ -12,13 +12,15 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.dhayalan.CarWashing"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.dhayalan.CarWashing"
     },
     "web": {
       "favicon": "./assets/ww_favicon.png",
@@ -26,7 +28,7 @@
     },
     "extra": {
       "eas": {
-        "projectId": "81d630dd-9396-4fa5-8bc0-eeccaa29df3f"
+        "projectId": "c7d9e84e-0f72-470f-8724-7462c9c3abef"
       }
     }
   }
