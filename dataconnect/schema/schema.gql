@@ -1,0 +1,15 @@
+# File `/dataconnect/schema/schema.gql`
+
+type User @table(key: "uid") {
+  uid: String!
+  name: String!
+  email: String!
+  password: String!
+}
+
+type Email @table {
+   subject: String!
+   sent: Date!
+   text: String!
+   from: User!
+}
