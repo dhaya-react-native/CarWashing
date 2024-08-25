@@ -56,7 +56,7 @@ const firebaseConfig = {
 - Register screen `./src/screens/auth/register.tsx`
 - Forget password screen `./src/screens/auth/forget.tsx`
 
-### React Navigation Auth Flow
+### Project Auth Flow and Functionality
 
 The checking logged users process is inside `./src/provider/AuthProvider` I use React Context, you can add more functions like get the data of the user and store it to the context (better static data, ex: uid)
 
