@@ -4,7 +4,7 @@ Template starter with React Navigation and Firebase auth using React Context
 
 # Preview
 
-![../media/authflow.png](../media/authflow.png)
+![../media/authflow.png](https://raw.githubusercontent.com/codingki/react-native-expo-template/master/media/authflow.png)
 
 # Installation
 
@@ -52,13 +52,9 @@ const firebaseConfig = {
 
 ### Prebuilt UI Screens
 
-There are 3 screens included inside `./src/screens/auth` and one more thing its included with the firebase auth function, so you don't need to create the function. The ilustrations I use [undraw](https://undraw.co/)
-
 - Login screen `./src/screens/auth/login.tsx`
 - Register screen `./src/screens/auth/register.tsx`
 - Forget password screen `./src/screens/auth/forget.tsx`
-
-I personally use these screens on my project [TiktTeng](https://github.com/codingki/TikTeng) in early stages before the redesign, feel free to use these screens ❤️
 
 ### React Navigation Auth Flow
 
